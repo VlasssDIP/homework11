@@ -1,0 +1,220 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face{
+  font-family: 'Roboto';
+  src:url("../fonts/roboto/Roboto-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face{
+  font-family: 'Roboto';
+  src:url("../fonts/roboto/Roboto-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face{
+  font-family: 'Roboto';
+  src:url("../fonts/roboto/Roboto-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+.container{
+  width: 1200px;
+  margin: 0 auto;
+  color: #3D3D3D;
+}
+
+body{
+  color: #3D3D3D;
+}
+/*Garden Styles*/
+
+.garden{
+  padding-top: 90px;
+  display: flex;
+}
+
+.garden_plants{
+  display: flex;
+}
+
+.garden_propose{
+  padding-top: 37px;
+}
+
+
+.garden_plants_card {
+  padding: 25px;
+}
+.plant_img {
+}
+.plant_title {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 16px;
+  padding: 15px 0 10px 0;
+}
+.plant_text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+}
+.garden_propose {
+  max-width: 354px;
+}
+
+.propose_title{
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+.propose_text{
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.input_but{
+  padding: 25px 0;
+  position: relative;
+
+}
+
+.input_join {
+  padding: 12px 0 12px 12px;
+  width: 270px;
+  position: relative;
+  border-right: none;
+  border-top-left-radius:6px;
+  border-bottom-left-radius:6px;
+  border: 1px solid transparent;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.join {
+  padding: 9px 25px;
+  
+  position: absolute;
+  right: 0;
+  top: 25px;
+  border-left: transparent;
+  width: 85px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius:6px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  background-color: #46A358;
+  border: 1px solid transparent;
+}
+
+/*CONTACTS STYLES*/
+
+
+
+.contacts {
+  background: linear-gradient(to right,  white,#46A358);
+  padding: 27px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center ;
+}
+.contacts_img {
+ 
+}
+.contacts_adress {
+}
+.contacts_main {
+}
+.contacts_tel {
+}
+
+
+
+.contacts_block{
+  position: relative;
+}
+
+.icon_img{
+  position: absolute;
+  top:0;
+  right: 100%;
+  padding-right: 10px;
+  }
+
+  .contacts_block a{
+    text-decoration: none;
+    color: #3D3D3D;
+  }
+
+  /*INFO STYLES*/
+
+  .info{
+display: flex;
+padding: 33px 0 30px 25px;
+border-bottom: 1px solid rgb(142, 198, 153);
+  }
+
+
+  .info_links{
+    width: 850px;
+    display: flex;
+  
+
+  }
+
+  .info_link{
+    width: 33%;
+  }
+
+  .social{
+
+  }
+
+  .title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+    margin-bottom: 10px;
+  }
+
+
+  .info_list_item a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #3D3D3D;
+  }
+
+  .social_icons{
+    display: flex;
+  }
+
+
+  .social_icons a{
+    padding: 7px;
+    display: block;
+    border: 1px solid rgb(142, 198, 153);
+    border-radius: 6px;
+    margin-right: 10px;
+  }
+
+  .pay_title{
+    margin-top: 33px;
+  }
+
+  .footer{
+    text-align: center;
+    margin-top: 10px;
+  }
